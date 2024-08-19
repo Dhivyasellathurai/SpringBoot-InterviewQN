@@ -1,0 +1,8 @@
+1. Spring IOC Container 
+      The IOC (Inversion of Control) container in Spring is a core concept responsible 
+for managing the lifecycle and dependencies of objects, known as beans.
+It helps implement Dependency Injection (DI), which means that the control of creating 
+and managing objects is transferred from the application code to the Spring framework.
+
+   the IOC container helps achieve loose coupling between objects by handling their creation, 
+lifecycle, and dependencies, making the code cleaner and easier to test.
