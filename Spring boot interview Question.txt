@@ -26,3 +26,14 @@ Conditionally Load: The auto-configuration classes are conditionally loaded base
 Custom Configuration: You can also customize the configuration. If you don’t want to use a specific auto-configuration, you can exclude it using @EnableAutoConfiguration(exclude = ClassName.class).
 
 Spring Boot’s auto-configuration simplifies the setup process, allowing you to focus on essential configuration by writing minimal code, while Spring Boot handles the rest.
+
+3. What is Break and Continue?
+
+break and continue statements are used to skip some statements inside the loop or terminate the loop immediately without checking the test expression.
+
+These statements can be used inside any loops such as for, while, do-while loop.
+The break statement is used to terminate the loop immediately. 
+
+The continue statement is used to skip the current iteration of the loop.
+Break keyword with a semicolon is used to indicate break statements in java programming. continue keyword is used to indicate continue statement in java programming.it was also called loop control jump control statement 
+
