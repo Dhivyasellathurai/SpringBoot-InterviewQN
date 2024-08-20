@@ -37,3 +37,10 @@ The break statement is used to terminate the loop immediately.
 The continue statement is used to skip the current iteration of the loop.
 Break keyword with a semicolon is used to indicate break statements in java programming. continue keyword is used to indicate continue statement in java programming.it was also called loop control jump control statement 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.What is Spring Boot, and how is it different from Spring Framework?
+
+Spring Boot is an extension of the Spring Framework designed to simplify and accelerate the development of Spring applications. It provides auto-configuration, a set of pre-defined starter dependencies, and an embedded server, which streamline the setup and deployment process. Unlike the traditional Spring Framework, which requires extensive manual configuration and external server deployment, Spring Boot allows for rapid application development with minimal configuration and built-in features like monitoring and management endpoints. This makes Spring Boot particularly advantageous for quickly creating production-ready applications.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
