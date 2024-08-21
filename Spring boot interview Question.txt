@@ -44,3 +44,22 @@ Break keyword with a semicolon is used to indicate break statements in java prog
 Spring Boot is an extension of the Spring Framework designed to simplify and accelerate the development of Spring applications. It provides auto-configuration, a set of pre-defined starter dependencies, and an embedded server, which streamline the setup and deployment process. Unlike the traditional Spring Framework, which requires extensive manual configuration and external server deployment, Spring Boot allows for rapid application development with minimal configuration and built-in features like monitoring and management endpoints. This makes Spring Boot particularly advantageous for quickly creating production-ready applications.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.What is @Autowierd Annotations?
+
+
+The @Autowired annotation is used in the Spring Framework to automatically inject dependencies into Spring-managed beans. It simplifies dependency injection by allowing Spring to resolve and inject collaborating beans into your bean.
+
+Key Points:
+
+Automatic Dependency Injection:
+@Autowired is used to inject dependencies automatically without the need for explicit configuration. Spring will automatically find and inject the required bean.
+
+Optional Dependencies:
+If a dependency is not mandatory, you can use @Autowired(required = false), and Spring will not throw an exception if the bean is not found.
+
+Qualifier:
+If there are multiple beans of the same type, you can use @Qualifier to specify which bean to inject.
+
+Spring Boot:
+In a Spring Boot application, @Autowired is commonly used to inject services, repositories, or other components into your classes, promoting loose coupling and easier management of dependencies.
