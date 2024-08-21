@@ -63,3 +63,5 @@ If there are multiple beans of the same type, you can use @Qualifier to specify 
 
 Spring Boot:
 In a Spring Boot application, @Autowired is commonly used to inject services, repositories, or other components into your classes, promoting loose coupling and easier management of dependencies.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
