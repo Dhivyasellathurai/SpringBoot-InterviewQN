@@ -7,7 +7,7 @@ and managing objects is transferred from the application code to the Spring fram
    the IOC container helps achieve loose coupling between objects by handling their creation, 
 lifecycle, and dependencies, making the code cleaner and easier to test.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.  What is Spring Boot Auto-Configuration, and how does it work?
 
@@ -26,6 +26,8 @@ Conditionally Load: The auto-configuration classes are conditionally loaded base
 Custom Configuration: You can also customize the configuration. If you don’t want to use a specific auto-configuration, you can exclude it using @EnableAutoConfiguration(exclude = ClassName.class).
 
 Spring Boot’s auto-configuration simplifies the setup process, allowing you to focus on essential configuration by writing minimal code, while Spring Boot handles the rest.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. What is Break and Continue?
 
