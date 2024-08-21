@@ -67,3 +67,7 @@ Spring Boot:
 In a Spring Boot application, @Autowired is commonly used to inject services, repositories, or other components into your classes, promoting loose coupling and easier management of dependencies.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.) What is the difference between CrudRepo and JpaRepo?
+Crud repository: It is a Basic Repository. CrudRepository is like the most basic tool provided by Spring Data JPA for performing common database operations. It's an interface that gives you basic methods to Create, Read, Update, and Delete data in your database.
+
+Jpa repository: Advanced Repository: JpaRepository is like an upgraded version of CrudRepository. It includes all the methods from CrudRepository, but also provides extra features, like pagination (breaking down results into pages) and sorting (ordering results).
