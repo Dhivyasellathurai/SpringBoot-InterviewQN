@@ -71,3 +71,16 @@ In a Spring Boot application, @Autowired is commonly used to inject services, re
 Crud repository: It is a Basic Repository. CrudRepository is like the most basic tool provided by Spring Data JPA for performing common database operations. It's an interface that gives you basic methods to Create, Read, Update, and Delete data in your database.
 
 Jpa repository: Advanced Repository: JpaRepository is like an upgraded version of CrudRepository. It includes all the methods from CrudRepository, but also provides extra features, like pagination (breaking down results into pages) and sorting (ordering results).
+
+7.) @Component 
+      Annotating a class with @Component, you're telling the Spring Framework that an instance of this class should be kept in the ApplicationContext.
+      The @Component annotation is a marker for any Java class that Spring manages and treats as a bean.
+And the bean was managed by the IOC container. 
+      ApplicationContext is special version of IOC container, which is handled by the appication context.
+( Application start aanathum application context initialize aagi component class ku bean create pani soli ioc container kita solum.)
+8.) @Configuration 
+      Spring Configuration annotation indicates that the class has @Bean definition methods. So Spring container can process the class and generate Spring Beans to be used in the application.(same as the component scanning)
+
+
+       
+
