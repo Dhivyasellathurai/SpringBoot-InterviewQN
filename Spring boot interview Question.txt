@@ -93,5 +93,12 @@ simplify the development of web applications by adhering to the MVC design patte
                         model to retrieve or manipulate data, and returns the appropriate view to be rendered to the user.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-
+10. What is Spring Boot, and what are its main features?
+Answer:
+Spring Boot is an extension of the Spring framework that simplifies the process of setting up and developing new Spring applications. Its main features include:
+Auto-Configuration: Automatically configures Spring application based on the dependencies present on the classpath.
+Standalone: Creates stand-alone Spring applications that can be run without requiring an external server.
+Production-Ready: Provides features such as health checks and metrics to support production environments.
+Embedded Servers: Supports embedded servers like Tomcat, Jetty, or Undertow, which means you don’t need to deploy WAR files separately.
+Convention over Configuration: Reduces the need for configuration by following conventions and providing sensible defaults 
 
