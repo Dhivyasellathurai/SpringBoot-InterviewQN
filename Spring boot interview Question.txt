@@ -122,3 +122,17 @@ Required or Optional: You can decide whether the parameter is mandatory or optio
 Default Value: If the parameter is not provided, you can set a default value.
 Multiple Parameters: You can handle multiple query parameters at once.
 In short, @RequestParam is used to get data from the URL and pass it to a method in your application.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+14.) What is Servlet?
+A Servlet is a Java program that runs on a web server and handles requests from web clients, typically browsers. It’s a key component in web development using Java, allowing developers to create dynamic web content like web pages, forms, or responses to user actions.
+How Servlets Work:
+Client Request: A user interacts with a web page and sends a request (e.g., by clicking a button or submitting a form). This request is sent to the server where the servlet is hosted.
+Servlet Receives the Request: The server forwards the request to the servlet, which is a Java class that extends HttpServlet.
+Processing the Request: The servlet processes the request. It might involve reading form data, interacting with a database, or performing some business logic.
+Generating a Response: After processing, the servlet generates a response. This response is usually in the form of an HTML page, but it can also be JSON, XML, or any other type of content.
+Sending the Response Back to the Client: The server sends the generated response back to the client's browser, which then displays the content to the user.
+Why Use Servlets?
+Dynamic Content: Servlets allow you to generate dynamic web pages based on user inputs or other factors.
+Integration with Java: Since servlets are Java-based, they easily integrate with other Java technologies and libraries.
+Efficiency: Servlets are efficient and scalable, making them suitable for handling multiple user requests on a web server.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
