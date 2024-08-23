@@ -107,3 +107,9 @@ Convention over Configuration: Reduces the need for configuration by following c
 11.In your Spring Boot project, you have an Repository interface that extends JpaRepository, and JpaRepository is also an interface. Why does Repository use the extends keyword instead of implements to work with JpaRepository?
 
 In Spring Boot, Repository uses the extends keyword instead of implements because both Repository and JpaRepository are interfaces. In Java, when one interface inherits from another, it uses extends. The implements keyword is used when a class implements an interface, but since Repository is an interface, it uses extends to inherit the methods provided by JpaRepository.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+12. What is dependency Injection?
+   => Dependency injection (DI) is a process whereby objects define their dependencies (that is, the other objects with which they work) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.
+   => Setter Injection: The IOC container will inject the dependent bean object into the target bean object by calling the setter method.
+   => Constructor Injection: The IOC container will inject the dependent bean object into the target bean object by calling the target bean constructor.
+   => Field Injection: The IOC container will inject the dependent bean object into the target bean object by Reflection API
