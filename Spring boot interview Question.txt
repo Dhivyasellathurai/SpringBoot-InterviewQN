@@ -113,3 +113,12 @@ In Spring Boot, Repository uses the extends keyword instead of implements becaus
    => Setter Injection: The IOC container will inject the dependent bean object into the target bean object by calling the setter method.
    => Constructor Injection: The IOC container will inject the dependent bean object into the target bean object by calling the target bean constructor.
    => Field Injection: The IOC container will inject the dependent bean object into the target bean object by Reflection API
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+13.What is RequestParam ?
+
+The @RequestParam annotation in Spring Boot is used to extract query parameters from the URL and pass them to a method.
+Required or Optional: You can decide whether the parameter is mandatory or optional.
+Default Value: If the parameter is not provided, you can set a default value.
+Multiple Parameters: You can handle multiple query parameters at once.
+In short, @RequestParam is used to get data from the URL and pass it to a method in your application.
