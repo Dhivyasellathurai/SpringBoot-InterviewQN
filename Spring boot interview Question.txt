@@ -106,4 +106,4 @@ Convention over Configuration: Reduces the need for configuration by following c
 
 11.In your Spring Boot project, you have an Repository interface that extends JpaRepository, and JpaRepository is also an interface. Why does Repository use the extends keyword instead of implements to work with JpaRepository?
 
-In Spring Boot, AttendanceRepository uses the extends keyword instead of implements because both AttendanceRepository and JpaRepository are interfaces. In Java, when one interface inherits from another, it uses extends. The implements keyword is used when a class implements an interface, but since AttendanceRepository is an interface, it uses extends to inherit the methods provided by JpaRepository.
+In Spring Boot, Repository uses the extends keyword instead of implements because both Repository and JpaRepository are interfaces. In Java, when one interface inherits from another, it uses extends. The implements keyword is used when a class implements an interface, but since Repository is an interface, it uses extends to inherit the methods provided by JpaRepository.
