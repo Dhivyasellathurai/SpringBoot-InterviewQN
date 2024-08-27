@@ -159,6 +159,17 @@ Difference:
 
 @RequestMapping requires you to explicitly define the HTTP method (GET, POST, etc.), whereas @GetMapping is used specifically for handling GET requests.
 @GetMapping and other similar annotations like @PostMapping, @PutMapping, and @DeleteMapping make your code more readable and concise by mapping methods to specific HTTP methods.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+17.) What is Jsp?
+JSP (JavaServer Pages) is a technology used to create dynamic web content in Java-based web applications. It allows developers to mix HTML, XML, or other types of data with Java code to create web pages that are generated on the server before being sent to the client's browser.
+Lifecycle:
+Translation: JSP pages are translated into servlets (Java classes) by the web container.
+Compilation: The servlet is then compiled into bytecode that can be executed by the JVM.
+Execution: When a client requests the JSP page, the corresponding servlet is executed to generate the dynamic content.
+Cleanup: After execution, resources used by the JSP can be cleaned up.
 
-
+Advantages of JSP:
+Separation of Concerns: JSP allows a clear separation between the presentation layer (HTML) and the business logic (Java code).
+Ease of Use: Embedding Java code directly into HTML makes it easy to create dynamic web content.
+Reusability: You can use custom tags and libraries to create reusable components within JSP pages.
 
