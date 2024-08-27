@@ -172,4 +172,10 @@ Advantages of JSP:
 Separation of Concerns: JSP allows a clear separation between the presentation layer (HTML) and the business logic (Java code).
 Ease of Use: Embedding Java code directly into HTML makes it easy to create dynamic web content.
 Reusability: You can use custom tags and libraries to create reusable components within JSP pages.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+18.What are the Spring Boot key components?
+*Spring Boot Auto-Configuration: This feature automatically configures your application based on the dependencies present in the classpath. It reduces the need for manual configuration.
+*Spring Boot Application: The @SpringBootApplication annotation is a convenience annotation that combines @Configuration, @EnableAutoConfiguration, and @ComponentScan, which simplifies the setup of the Spring application context.
+*Spring Boot Actuator: This component provides production-ready features such as monitoring and management over HTTP, JMX, or other protocols. It includes endpoints for health checks, metrics, and application information.
+*Spring Boot CLI (Command Line Interface): Allows you to quickly prototype and test Spring Boot applications from the command line using Groovy scripts.
 
