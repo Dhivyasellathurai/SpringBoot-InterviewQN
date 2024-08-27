@@ -140,3 +140,25 @@ Efficiency: Servlets are efficient and scalable, making them suitable for handli
       i. Controller - Used for defining a controller class that handles web requests and returns a view (like a JSP or Thymeleaf template). It's typically used in web applications that render views as HTML pages. Methods in a class annotated with @Controller return a View or ModelAndView object that corresponds to a web page.
       ii.RestController - A specialization of @Controller, this annotation is used to create RESTful web services. It automatically serializes the returned object to JSON (or XML) and writes it directly to the HTTP response body. It's commonly used in API development where the response is typically data, not a view.
       Methods in a class annotated with @RestController return the actual data (like a List, Map, or custom object) that will be serialized to JSON (or XML).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16.) What is the difference between @RequestMapping and @GetMapping in Spring Boot?
+
+@RequestMapping:
+
+Purpose: It is a general-purpose annotation used for handling HTTP requests.
+Usage: It allows you to specify the HTTP method (GET, POST, PUT, DELETE, etc.) and the URL path.
+
+@GetMapping:
+
+Purpose: It is a shortcut for @RequestMapping, specifically for handling HTTP GET requests.
+Usage: It is used to define controller methods that handle GET requests.
+
+Difference:
+
+@RequestMapping requires you to explicitly define the HTTP method (GET, POST, etc.), whereas @GetMapping is used specifically for handling GET requests.
+@GetMapping and other similar annotations like @PostMapping, @PutMapping, and @DeleteMapping make your code more readable and concise by mapping methods to specific HTTP methods.
+
+
+
