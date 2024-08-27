@@ -179,3 +179,9 @@ Reusability: You can use custom tags and libraries to create reusable components
 *Spring Boot Actuator: This component provides production-ready features such as monitoring and management over HTTP, JMX, or other protocols. It includes endpoints for health checks, metrics, and application information.
 *Spring Boot CLI (Command Line Interface): Allows you to quickly prototype and test Spring Boot applications from the command line using Groovy scripts.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+19.What is Thymleaf?
+
+Thymeleaf is a modern server-side Java template engine for web applications. It allows developers to create dynamic web pages using HTML, with embedded expressions to display data from the server. Thymeleaf integrates smoothly with Spring Boot, making it a popular choice for developing web applications.
+
