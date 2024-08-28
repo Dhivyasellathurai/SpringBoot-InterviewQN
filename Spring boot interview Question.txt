@@ -206,4 +206,14 @@ ii)What is a Maven repository, and what types are there?
       => Remote Repository: External repositories maintained by third parties or private organizations.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+22. SingleTon Class in Java 
+      A Singleton class in Java is a design pattern that ensures a class has only one instance and provides a global point of access to that instance. This is useful when exactly one object is needed to coordinate actions across the system.     
+
+Key Characteristics of a Singleton Class:
+
+Private Constructor: The constructor is made private to prevent the instantiation of the class from outside the class.
+
+Static Instance: A private static instance of the class is created inside the class itself. This is the single instance that will be returned whenever access to the class is required.
+
+Public Static Method: A public static method (often called getInstance()) is provided to return the single instance of the class. This method ensures that only one instance of the class is created, even in a multi-threaded environment.
 
