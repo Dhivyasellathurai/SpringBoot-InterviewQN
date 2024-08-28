@@ -191,3 +191,19 @@ Answer:
 @RestController: A specialized version of @Controller used for creating RESTful web services. It combines @Controller and @ResponseBody, meaning that the return values of methods are directly written to the HTTP response body and are usually in JSON or XML format.
 
 @Controller: Used for traditional web applications where views (e.g., JSP, Thymeleaf) are returned. Methods in a @Controller return the name of a view template rather than data directly.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+21.
+i)What is Maven?
+    =>Maven is a build automation and project management tool used primarily for Java projects.
+    =>It helps manage project builds, dependencies, and documentation with a standardized approach. 
+    =>Maven simplifies the build process by using a declarative configuration model.
+ii)What is a Maven repository, and what types are there?
+    => A Maven repository is a directory or server that stores artifacts (like JAR files and plugins). 
+  There are three types of repositories:
+      => Local Repository: Stored on the developer's machine.
+      => Central Repository: The default global repository maintained by the Maven community.
+      => Remote Repository: External repositories maintained by third parties or private organizations.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
