@@ -216,7 +216,7 @@ Private Constructor: The constructor is made private to prevent the instantiatio
 Static Instance: A private static instance of the class is created inside the class itself. This is the single instance that will be returned whenever access to the class is required.
 
 Public Static Method: A public static method (often called getInstance()) is provided to return the single instance of the class. This method ensures that only one instance of the class is created, even in a multi-threaded environment.
-
+-----------------------------------------------------------------------------------------------------------
 23.What is Inheritance in Java?
 (Subclass and Superclass)
 
