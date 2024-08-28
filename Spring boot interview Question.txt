@@ -185,3 +185,9 @@ Reusability: You can use custom tags and libraries to create reusable components
 
 Thymeleaf is a modern server-side Java template engine for web applications. It allows developers to create dynamic web pages using HTML, with embedded expressions to display data from the server. Thymeleaf integrates smoothly with Spring Boot, making it a popular choice for developing web applications.
 
+20.What is the difference between @RestController and @Controller in Spring Boot?
+Answer:
+
+@RestController: A specialized version of @Controller used for creating RESTful web services. It combines @Controller and @ResponseBody, meaning that the return values of methods are directly written to the HTTP response body and are usually in JSON or XML format.
+
+@Controller: Used for traditional web applications where views (e.g., JSP, Thymeleaf) are returned. Methods in a @Controller return the name of a view template rather than data directly.
