@@ -273,4 +273,15 @@ Structure of a JWT:
            =>Public Claims: Custom claims that you define for your specific use case.
            =>Private Claims: Custom claims agreed upon by both parties exchanging the token.
             =>Signature: To ensure the integrity and authenticity of the token, it is signed with a secret key (for HMAC algorithms) or a private key (for RSA algorithms). The signature is created by encoding the header and payload and then applying the signing algorithm.
+-----------------------------------------------------------------------------------------------------------------------------------------
+26.) What is JSON?
+      JSON, or JavaScript Object Notation, is a lightweight data interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It’s commonly used for transmitting data in web applications between a server and a client, or between different parts of a system.
+Key Characteristics of JSON:
+Human-Readable: JSON is written in a plain text format, making it easy to read and understand.
+Language-Independent: Although JSON is derived from JavaScript, it is language-independent and can be used with most modern programming languages (e.g., Python, Java, C#, etc.).
+Structured Data: JSON is a way to represent structured data in the form of key-value pairs and arrays.
+Common Uses of JSON:
+APIs: JSON is widely used as the format for data exchange in RESTful APIs.
+Configuration Files: JSON is often used to configure settings for applications and tools.
+Data Storage: It’s sometimes used for storing lightweight data or configuration data in files.
 
