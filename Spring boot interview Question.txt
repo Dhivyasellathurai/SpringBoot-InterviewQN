@@ -261,5 +261,16 @@ An interface cannot contain a constructor (as it cannot be used to create object
 
 Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can implement multiple interfaces. Note: To implement multiple interfaces, separate them with a comma.
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+25.What is JWT token and structure?
 
+JWT stands for JSON Web Token. It’s a compact, URL-safe token format that is used to securely transmit information between parties. JWTs are commonly used for authentication and authorization purposes in web applications.
+Structure of a JWT:
+          =>A JWT consists of three parts, separated by dots (.):
+          =>Header: Contains metadata about the token, such as the type of token (JWT) and the signing algorithm used (e.g., HMAC SHA256 or RSA).
+           =>Payload: Contains the claims or the information you want to transmit. This can include user details, roles, or other data. Claims can be categorized into:
+           =>Registered Claims: Predefined claims like iss (issuer), exp (expiration time), sub (subject), and aud (audience).
+           =>Public Claims: Custom claims that you define for your specific use case.
+           =>Private Claims: Custom claims agreed upon by both parties exchanging the token.
+            =>Signature: To ensure the integrity and authenticity of the token, it is signed with a secret key (for HMAC algorithms) or a private key (for RSA algorithms). The signature is created by encoding the header and payload and then applying the signing algorithm.
 
