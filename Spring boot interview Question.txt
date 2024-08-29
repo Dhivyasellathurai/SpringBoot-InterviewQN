@@ -285,7 +285,7 @@ APIs: JSON is widely used as the format for data exchange in RESTful APIs.
 Configuration Files: JSON is often used to configure settings for applications and tools.
 Data Storage: It’s sometimes used for storing lightweight data or configuration data in files.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-27.) What is Hibernate ? and hibernate useing benifits?
+27.) What is Hibernate ? and hibernate using benefits?
 
 Hibernate oru Java library, which helps in managing database operations and interactions in an object-oriented way. It's an Object-Relational Mapping (ORM) tool, and it simplifies database operations by mapping Java objects to database tables.
 
