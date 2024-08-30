@@ -295,7 +295,7 @@ Simplified Data Access: Reduces boilerplate code for data access.
 Automatic Mapping: Maps Java objects to database tables automatically.
 Query Flexibility: Supports HQL and Criteria API for complex queries.
 Caching: Reduces database load with efficient caching strategies.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 28. What is Spring Boot DevTools and how does it help in development?
 Answer:
 Spring Boot DevTools is a development tool that provides features to improve the development experience. Key features include:
@@ -304,6 +304,13 @@ Automatic Restart: Automatically restarts the application when changes are made 
 LiveReload: Automatically refreshes the browser when static resources change.
 Configuration Properties: Allows for specific configurations that only apply during development.
 Adding the spring-boot-devtools dependency to your project enables these features and improves productivity during development.  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+29.) Tomcat Server
+      Tomcat is an essential part of Spring Boot as it serves as the default embedded web server. When you run a Spring Boot application, it comes with its own internal Tomcat server, which means you don’t need to install or configure a separate web server.       
+      Tomcat handles incoming HTTP requests, manages sessions, and delivers responses, making it easy to develop and run web applications locally.
+      It binds to your local machine, typically on port 8080, and allows your application to run as a standalone executable, making development, testing, and deployment much simpler. 
+      Since Tomcat is embedded, you don't need a network connection to run your application, everything is self-contained within your system. This setup is great for both developers and production environments because it reduces the complexity of managing external servers.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
