@@ -322,6 +322,9 @@ The LinkedList stores its items in "containers." The list has a link to the firs
 When To Use
 Use ofan ArrayList is to store and access data and LinkedList to manipulate data.
 For many cases, the ArrayList is more efficient as it is common to need access to random items in the list
+-----------------------------------------------------------------------------------------------------------------------------------------
+31.What is the use of @EnableScheduling in Spring Boot?
 
-
+The @EnableScheduling annotation is used to enable scheduling of tasks in Spring Boot. You can schedule tasks using @Scheduled annotation to run methods at fixed intervals or cron expressions.
+-----------------------------------------------------------------------------------------------------------------------------------------
 
