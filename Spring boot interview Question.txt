@@ -295,3 +295,17 @@ Simplified Data Access: Reduces boilerplate code for data access.
 Automatic Mapping: Maps Java objects to database tables automatically.
 Query Flexibility: Supports HQL and Criteria API for complex queries.
 Caching: Reduces database load with efficient caching strategies.
+
+28. What is Spring Boot DevTools and how does it help in development?
+Answer:
+Spring Boot DevTools is a development tool that provides features to improve the development experience. Key features include:
+
+Automatic Restart: Automatically restarts the application when changes are made to classpath resources.
+LiveReload: Automatically refreshes the browser when static resources change.
+Configuration Properties: Allows for specific configurations that only apply during development.
+Adding the spring-boot-devtools dependency to your project enables these features and improves productivity during development.  
+
+
+
+
+
