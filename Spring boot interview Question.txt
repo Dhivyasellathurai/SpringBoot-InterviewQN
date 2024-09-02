@@ -343,3 +343,15 @@ How it works:
 Uniqueness: Ensures that each record in the table is unique and can be identified by this primary key.
 Relationships: Helps in establishing relationships between entities, such as One-to-One, One-to-Many, or Many-to-Many.
 Querying: Enables efficient querying and indexing by the database since the primary key is typically indexed.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+34.) What is Actuator in Spring Boot?
+      In Spring Boot, Actuator is a powerful feature that provides production-ready tools for monitoring and managing applications. It exposes various endpoints that give insights into the application's internals, such as health, metrics, environment properties, and more.
+Key Features of Spring Boot Actuator:
+1.Health Checks (/actuator/health)
+2.Metrics (/actuator/metrics)
+3.Environment Info (/actuator/env)
+4.Application Info (/actuator/info)
+5.Thread Dump (/actuator/threaddump)
+6.HTTP Traces (/actuator/httptrace)
+7.Mappings (/actuator/mappings)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
