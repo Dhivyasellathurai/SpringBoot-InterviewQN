@@ -328,3 +328,11 @@ For many cases, the ArrayList is more efficient as it is common to need access t
 The @EnableScheduling annotation is used to enable scheduling of tasks in Spring Boot. You can schedule tasks using @Scheduled annotation to run methods at fixed intervals or cron expressions.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+32.What is Docker and how does it work?
+
+Docker is a platform that allows developers to package applications and their dependencies into lightweight, portable containers. These containers ensure that the application runs consistently across different environments, such as development, testing, and production.
+How it works:
+      => Containerization: Docker containers bundle the application code, runtime, libraries, and settings into a single package. This ensures that the application behaves the same way regardless of where it is deployed.
+      =>Images and Containers: Docker uses images as blueprints to create containers. An image is a read-only template that contains everything needed to run an application. When you run an image, Docker creates a container, which is a running instance of that image.
+      =>Docker Engine: This is the runtime that manages and runs containers. It provides the necessary environment for containers to execute.
+      =>Docker Hub: A cloud-based registry where Docker images can be stored and shared. Developers can pull images from Docker Hub to run containers on their local machines or servers.
