@@ -375,4 +375,11 @@ Customization: You can customize the scanning process by specifying which packag
                   <properties>: Defines project properties that can be used elsewhere in the POM.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+37. Application Properties , why we use it ?
+      In Spring Boot, the application.properties (or application.yml) file is a configuration file used to set up various settings and properties for your Spring Boot application. This file allows you to externalize configuration so that you can easily change the behavior of your application without modifying the source code.
+       It centralizes all the configuration settings in one place, making it easier to manage and maintain.
+       Spring Boot can automatically pick the correct file based on the active profile, allowing you to tailor your application’s configuration for development, testing, and production.
+       Spring Boot makes it simple to access properties defined in the application.properties file through the @Value annotation or by binding them to a configuration class using the @ConfigurationProperties annotation.
+      The application.properties file is a powerful feature in Spring Boot that simplifies configuration management, making it easier to adapt the application to different environments and requirements.
 
+-----------------------------------------------------------------------------------------------------------------------------------------
