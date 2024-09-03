@@ -355,3 +355,14 @@ Key Features of Spring Boot Actuator:
 6.HTTP Traces (/actuator/httptrace)
 7.Mappings (/actuator/mappings)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+35.) What is the purpose of using @ComponentScan in the class files? 
+
+Purpose of @ComponentScan in Spring:
+@ComponentScan is an annotation used in Spring Framework that tells the Spring container to scan specific packages to find components, beans, controllers, and other Spring-managed classes automatically.
+
+Why Use @ComponentScan?
+Discover Beans Automatically: The main purpose of @ComponentScan is to automatically discover beans in your application. It scans for classes annotated with @Component, @Service, @Repository, @Controller, etc., and registers them as beans in the Spring context.
+Scan Multiple Packages: By default, Spring Boot scans the package where the main application class with @SpringBootApplication is located. If you need to include components from other packages, you can use @ComponentScan.
+Customization: You can customize the scanning process by specifying which packages to include, ensuring that only the required beans are loaded, and avoiding unnecessary processing.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
