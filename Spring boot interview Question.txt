@@ -365,4 +365,14 @@ Discover Beans Automatically: The main purpose of @ComponentScan is to automatic
 Scan Multiple Packages: By default, Spring Boot scans the package where the main application class with @SpringBootApplication is located. If you need to include components from other packages, you can use @ComponentScan.
 Customization: You can customize the scanning process by specifying which packages to include, ensuring that only the required beans are loaded, and avoiding unnecessary processing.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+36.What is a POM file in Maven?
+                 => POM stands for Project Object Model. The POM file (pom.xml) is the core of a Maven project and contains 
+               configuration information such as project dependencies, build settings, and plugins.
+        Key Elements:
+                   <dependencies>: Lists project dependencies.
+                   <build>: Configures the build process, including plugins and goals.
+                  <properties>: Defines project properties that can be used elsewhere in the POM.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
