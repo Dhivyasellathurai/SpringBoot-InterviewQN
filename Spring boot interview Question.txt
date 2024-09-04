@@ -383,3 +383,13 @@ Customization: You can customize the scanning process by specifying which packag
       The application.properties file is a powerful feature in Spring Boot that simplifies configuration management, making it easier to adapt the application to different environments and requirements.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+38.) Describe the flow of HTTPS requests through the Spring Boot application.
+HTTP Request: The client sends an HTTP request to the server.
+DispatcherServlet: Routes the request to the appropriate controller.
+Controller: Maps and handles the request, delegates business logic to the service layer.
+Service Layer: Executes the business logic and interacts with the repository layer.
+Repository Layer: Performs CRUD operations using JPA.
+Response:
+For REST APIs: Sends a JSON/XML response back to the client.
+For MVC applications: Renders a JSP page with model data and sends it back to the client.
+Error Handling: Manages errors and returns appropriate responses or error pages.
