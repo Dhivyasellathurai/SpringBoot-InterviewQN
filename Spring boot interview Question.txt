@@ -393,3 +393,10 @@ Response:
 For REST APIs: Sends a JSON/XML response back to the client.
 For MVC applications: Renders a JSP page with model data and sends it back to the client.
 Error Handling: Manages errors and returns appropriate responses or error pages.
+----------------------------------------------------------------------------------------------------------------------------------------------
+39.What is @Bean?
+   => @Bean is an annotation used in the Spring Framework and managed by the Spring Container.
+   => @Bean is specified to create a bean using a method in the Spring IoC container.
+   => Spring Container registers the return value of method with Bean annotation as a bean.
+   => Same Bean method call seidhalum multiple times, returning the same bean each time
+   => You can use this annotation while doing bean customization or as a third-party library.
