@@ -400,3 +400,23 @@ Error Handling: Manages errors and returns appropriate responses or error pages.
    => Spring Container registers the return value of method with Bean annotation as a bean.
    => Same Bean method call seidhalum multiple times, returning the same bean each time
    => You can use this annotation while doing bean customization or as a third-party library.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+40.What is Swagger, and why is it used in Spring Boot?
+      => Swagger is a tool that helps document REST APIs. 
+      =>It automatically generates interactive API documentation, making it easy to test and understand the API endpoints.
+      =>In Spring Boot, Swagger is often used to provide a user interface where developers can see all available endpoints, their 
+         parameters, request/response types, and test them directly from the browser.
+      =>Swagger also generates JSON or YAML-based documentation of the APIs, which is useful for frontend and backend developers to 
+         communicate efficiently.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
