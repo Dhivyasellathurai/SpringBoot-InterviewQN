@@ -435,7 +435,15 @@ Runnable:
    => Pass the Thread class as a Runnable object and call the start() method.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 43.) What is Session?
-      
+      A session is a way to store information about a user's interaction with a website or application over a period of time. When you visit a website, the server creates a session to keep track of who you are and what you're doing while you're there. This is important because HTTP (the protocol websites use) is stateless, meaning it doesn't remember users between requests.
+
+Here's how a session works in simple terms:
+
+Session Creation: When you visit a website, the server starts a session for you and gives you a unique ID (called a session ID).
+Storing Data: The server can store data related to your activities (like login status, items in a shopping cart, etc.) in this session.
+Session ID: The server sends the session ID back to your browser, usually in the form of a cookie.
+Using the Session: Every time you interact with the website, your browser sends this session ID back to the server, so the server knows it's you and can retrieve your session data.
+Session Expiry: Sessions usually expire after a certain amount of inactivity or when you log out.      
 
 
 
