@@ -444,7 +444,25 @@ Storing Data: The server can store data related to your activities (like login s
 Session ID: The server sends the session ID back to your browser, usually in the form of a cookie.
 Using the Session: Every time you interact with the website, your browser sends this session ID back to the server, so the server knows it's you and can retrieve your session data.
 Session Expiry: Sessions usually expire after a certain amount of inactivity or when you log out.      
+ --------------------------------------------------------------------------------------------------------------------------------------------------
 
+45.What is Swagger and it Annotation?
+Swagger is an open-source framework for designing, building, documenting, and consuming RESTful APIs. It helps developers describe the structure of APIs in a standard format, which can be understood by both humans and machines. Swagger automatically generates interactive API documentation, which developers and stakeholders can use to interact with the API, understand its features, and even test it.
+Swagger works with the OpenAPI Specification (OAS), which defines a standard way to describe REST APIs, including endpoints, request parameters, response structures, authentication methods, and more.
+Swagger Annotations:
+@Api:
+Declares a class as a Swagger resource. It is used at the controller level to describe the API as a whole.
+@ApiOperation:
+Describes a specific operation in an API endpoint. It's used to provide additional information about what an API method does.
+@ApiParam:
+Describes a single parameter of an API method. It can be used to define path parameters, query parameters, headers, or body parameters.
+@ApiResponse:
+Describes a possible response for an API operation, including the HTTP status code and any messages or models associated with it.
+@ApiResponses:
+This annotation is used in combination with @ApiResponse to define multiple response types for a method.
+@ApiIgnore:
+This annotation is used to hide specific endpoints or parameters from Swagger documentation.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
