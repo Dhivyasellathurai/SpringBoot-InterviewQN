@@ -424,6 +424,15 @@ Spring: Typically requires a separate application server or servlet container fo
 Spring Boot: Includes built-in production-ready features such as metrics, health checks, and externalized configuration. These are accessible via Actuator endpoints and make it easier to monitor and manage applications.
 Spring: Requires additional setup and third-party libraries to achieve similar functionality.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42.Thread vs Runnable Classes Comparison ?
+Thread:
+   => Thread extends the class so inheritance can be done only once in the class (no multiple inheritance).
+   => You can directly extend the Thread class and create a thread.
+   => Create Thread and call start() method directly.
+Runnable:
+   => By implementing the Runnable interface, other classes can be extended.
+   => Implement Runnable interface and wrap it in Thread class.
+   => Pass the Thread class as a Runnable object and call the start() method.
 
 
 
