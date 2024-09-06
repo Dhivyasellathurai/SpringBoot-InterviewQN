@@ -433,7 +433,9 @@ Runnable:
    => By implementing the Runnable interface, other classes can be extended.
    => Implement Runnable interface and wrap it in Thread class.
    => Pass the Thread class as a Runnable object and call the start() method.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43.) What is Session?
+      
 
 
 
