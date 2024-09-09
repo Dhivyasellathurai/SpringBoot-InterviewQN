@@ -462,10 +462,14 @@ Describes a possible response for an API operation, including the HTTP status co
 This annotation is used in combination with @ApiResponse to define multiple response types for a method.
 @ApiIgnore:
 This annotation is used to hide specific endpoints or parameters from Swagger documentation.
---------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------
+46.What is OpenAPI Specification?
+           => OpenAPI Specification (OAS) oru standard format for REST APIs describe panna use pannuvaanga. Swagger 2.0 OpenAPI oda base-a irundhadhu. Idhula API endpoints, operations (GET, POST, etc.), parameters, request/response formats, authentication methods ellam define pannidum.
+OpenAPI main uses:
+           1=>API Documentation: Automatically create panna mudiyum, easy-a users API use panna help pannidum.
+           2=>API Testing: Swagger UI madri tools use panni APIs test pannalam without writing separate client code.
+           3=>API Contract: API consumer and provider madri two teams irundha, OpenAPI oru clear contract madhiri irukkum. API structure pathi ellam clear-a solirukkum
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 
 
