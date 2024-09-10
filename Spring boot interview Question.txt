@@ -500,6 +500,10 @@ The Comparator interface is more flexible because it allows you to define multip
 48.what is Jasper Report and How is it Work?
 Jasper Reports is an open-source reporting tool used to generate reports from a wide range of data sources (like databases, XML, and JavaBeans) and export them to various formats (PDF, HTML, Excel, etc.). It is commonly used in Java applications to create dynamic content in reports. Let me explain how Jasper Reports works:
 1.Report Template (JRXML file):
+The first step in Jasper Reports is to create a report template. This is typically an XML file with the extension .jrxml. The template defines the layout, structure, and format of the report. 
+2.Compiling the Template:
+The .jrxml file is not directly used by the Java application. It needs to be compiled into a .jasper file, which is the binary version of the report. The Jasper engine compiles the .jrxml template into the .jasper file, which can then be used by the Java application to generate reports.
+
 
 
 
