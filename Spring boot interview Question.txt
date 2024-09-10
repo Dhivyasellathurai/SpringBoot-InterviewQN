@@ -479,8 +479,15 @@ Complex Queries: Native queries are useful when you need to execute complex SQL 
 Performance: Native queries can be faster for specific operations because they interact directly with the database without the Hibernate translation layer.
 Example:
 String sql = "SELECT * FROM employees WHERE status = 'ACTIVE'";
-Query query = entityManager.createNativeQuery(sql);
 
+Hibernate Query (HQL):
+Object-oriented: Hibernate Query Language (HQL) is object-oriented and works with entity objects rather than directly with database tables.
+Database Agnostic: HQL is independent of the database, which makes the queries more portable across different databases.
+Translation Layer: Hibernate translates HQL queries into native SQL for execution, providing an abstraction over SQL.
+Ease of Use: HQL allows querying based on entity classes and their fields, which can simplify the query structure.
+Limitations: HQL might not be suitable for very complex database-specific queries.
+Example:
+String hql = "FROM Employee e WHERE e.status = 'ACTIVE'";
 
 
 
