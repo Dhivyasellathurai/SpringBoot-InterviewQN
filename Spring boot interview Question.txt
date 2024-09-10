@@ -488,6 +488,14 @@ Ease of Use: HQL allows querying based on entity classes and their fields, which
 Limitations: HQL might not be suitable for very complex database-specific queries.
 Example:
 String hql = "FROM Employee e WHERE e.status = 'ACTIVE'";
+----------------------------------------------------------------------------------------------------------------------------------------------
+48.Java Advanced Sorting (Comparator and Comparable)
+   Comparable and Comparator are used to compare objects for ordering and sorting.
+Comparable Interface:
+The Comparable interface is used when you want to define the default natural ordering for objects of a class. It requires implementing the compareTo() method.
+Comparator Interface:
+The Comparator interface is more flexible because it allows you to define multiple sorting sequences. You don’t need to modify the class itself, and you can define custom sorting logic externally.
+
 
 
 
