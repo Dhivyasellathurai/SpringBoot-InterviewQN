@@ -471,5 +471,16 @@ OpenAPI main uses:
            3=>API Contract: API consumer and provider madri two teams irundha, OpenAPI oru clear contract madhiri irukkum. API structure pathi ellam clear-a solirukkum
 -----------------------------------------------------------------------------------------------------------------------------------------
 47.) Difference between Native query & Hibernate query.
+Native Query:
+SQL-based: Native queries are written using plain SQL. You can use database-specific SQL syntax.
+Direct Database Interaction: Native queries bypass the Hibernate layer and directly interact with the underlying database.
+Less Portable: Since native queries are database-specific, they may not be portable across different database systems.
+Complex Queries: Native queries are useful when you need to execute complex SQL operations that are not easily achievable with Hibernate.
+Performance: Native queries can be faster for specific operations because they interact directly with the database without the Hibernate translation layer.
+Example:
+String sql = "SELECT * FROM employees WHERE status = 'ACTIVE'";
+Query query = entityManager.createNativeQuery(sql);
+
+
 
 
