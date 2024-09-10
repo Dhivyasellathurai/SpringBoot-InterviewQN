@@ -503,7 +503,15 @@ Jasper Reports is an open-source reporting tool used to generate reports from a 
 The first step in Jasper Reports is to create a report template. This is typically an XML file with the extension .jrxml. The template defines the layout, structure, and format of the report. 
 2.Compiling the Template:
 The .jrxml file is not directly used by the Java application. It needs to be compiled into a .jasper file, which is the binary version of the report. The Jasper engine compiles the .jrxml template into the .jasper file, which can then be used by the Java application to generate reports.
-
+3.Providing Data to the Report:
+The compiled report template is filled with data. Jasper Reports can pull data from multiple sources such as:
+A database (e.g., using SQL queries)
+JavaBeans or Collections
+XML files, CSV files, etc.
+4.Generating the Report:
+Once the report is filled with data, it can be generated in different formats like PDF, HTML, Excel, etc.
+Integration with Java Applications:
+Jasper Reports can be easily integrated into Java or Spring Boot applications. In a Spring Boot app, you can write a service class to compile, fill, and export reports. You can also return the report as a response (e.g., PDF report) in REST APIs.
 
 
 
