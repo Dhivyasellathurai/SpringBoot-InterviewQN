@@ -496,6 +496,11 @@ The Comparable interface is used when you want to define the default natural ord
 Comparator Interface:
 The Comparator interface is more flexible because it allows you to define multiple sorting sequences. You don’t need to modify the class itself, and you can define custom sorting logic externally.
 
+------------------------------------------------------------------------------------------------------------------------------------------
+48.what is Jasper Report and How is it Work?
+Jasper Reports is an open-source reporting tool used to generate reports from a wide range of data sources (like databases, XML, and JavaBeans) and export them to various formats (PDF, HTML, Excel, etc.). It is commonly used in Java applications to create dynamic content in reports. Let me explain how Jasper Reports works:
+1.Report Template (JRXML file):
+
 
 
 
