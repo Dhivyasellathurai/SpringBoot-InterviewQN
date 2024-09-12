@@ -512,6 +512,14 @@ XML files, CSV files, etc.
 Once the report is filled with data, it can be generated in different formats like PDF, HTML, Excel, etc.
 Integration with Java Applications:
 Jasper Reports can be easily integrated into Java or Spring Boot applications. In a Spring Boot app, you can write a service class to compile, fill, and export reports. You can also return the report as a response (e.g., PDF report) in REST APIs.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+49.XML vs pom.xml difference 
+XML :
+  Extensible Markup Language. 
+  XML is a markup language used to define rules for encoding documents in a format that is both human-readable and machine-readable.XML is a general information storage and exchange language.
+pom.xml :
+  Project Object Model XML
+  pom.xml is a Maven-specific XML file that specifically manages dependency and build information for Java projects.
 
 
 
