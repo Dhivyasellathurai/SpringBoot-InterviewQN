@@ -6,3 +6,11 @@ SQL (Structured Query Language):
             =>SQL provides the syntax and commands (SELECT, INSERT, UPDATE, DELETE, etc.) used to manipulate data in any relational database system.
             =>SQL is universal and works with many database systems such as MySQL, PostgreSQL, Oracle, SQL Server, etc.
             =>SQL is a standardized language maintained by ANSI (American National Standards Institute) and ISO (International Organization for Standardization). Different databases implement SQL according to this standard, but there may be minor variations (like T-SQL for SQL Server or PL/SQL for Oracle).
+MySQL:
+            =>MySQL is a Relational Database Management System (RDBMS) that uses SQL to interact with databases. It is software that allows users to create, maintain, and manage databases, using SQL as its query language.
+            =>MySQL is a database management system that helps store, organize, and retrieve data efficiently. It uses SQL as the means to communicate with the database.
+            =>MySQL is a software or system (RDBMS) that implements SQL to store, retrieve, and manage data.
+            =>MySQL uses SQL to execute queries and manage databases, but it also provides additional features like user management, security, storage engine configuration, and performance tuning.
+            =>MySQL is a specific database system that supports SQL as its query language.
+            =>MySQL follows the SQL standard but may introduce additional features or minor syntactical variations unique to MySQL.
+            =>MySQL provides the infrastructure (the actual database system) to store, retrieve, and manage data, and SQL is the language used to interact with it.
