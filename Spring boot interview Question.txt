@@ -523,5 +523,11 @@ pom.xml :
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 50.)Explain Microservices.
       A microservice is an architectural style where an application is broken down into small, independent services. Each service focuses on a specific business function and can be developed, deployed, and scaled independently. Microservices communicate with each other through lightweight protocols like HTTP or messaging queues.
+Key characteristics of microservices:
+Independence: Each microservice can be deployed, updated, and scaled individually without affecting other services.
+Loose coupling: Services are loosely coupled, meaning changes in one service don't heavily impact others.
+Technology diversity: Each microservice can be developed using different programming languages or technologies, as long as they adhere to communication protocols.
+Fault isolation: Failure in one microservice won't cause the entire application to fail, improving system resilience.
+Scalability: Individual microservices can be scaled based on demand rather than scaling the entire application.
 
 
