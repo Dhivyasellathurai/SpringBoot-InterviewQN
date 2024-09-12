@@ -522,6 +522,6 @@ pom.xml :
   pom.xml is a Maven-specific XML file that specifically manages dependency and build information for Java projects.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 50.)Explain Microservices.
-
+      A microservice is an architectural style where an application is broken down into small, independent services. Each service focuses on a specific business function and can be developed, deployed, and scaled independently. Microservices communicate with each other through lightweight protocols like HTTP or messaging queues.
 
 
