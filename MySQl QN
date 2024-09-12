@@ -1,2 +1,8 @@
 1.Explain the differences between SQL and MySQL?
 SQL (Structured Query Language):
+             =>SQL is a standard programming language used to manage and interact with relational databases. It defines how to query, insert, update, delete, and manage data in a database.
+            =>SQL is a language used across various database systems (e.g., MySQL, PostgreSQL, SQL Server, Oracle) to perform operations on data.
+            =>SQL is a language or standard used for database queries and management. It is not a software or tool.
+            =>SQL provides the syntax and commands (SELECT, INSERT, UPDATE, DELETE, etc.) used to manipulate data in any relational database system.
+            =>SQL is universal and works with many database systems such as MySQL, PostgreSQL, Oracle, SQL Server, etc.
+            =>SQL is a standardized language maintained by ANSI (American National Standards Institute) and ISO (International Organization for Standardization). Different databases implement SQL according to this standard, but there may be minor variations (like T-SQL for SQL Server or PL/SQL for Oracle).
