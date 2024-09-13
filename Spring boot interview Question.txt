@@ -520,7 +520,7 @@ XML :
 pom.xml :
   Project Object Model XML
   pom.xml is a Maven-specific XML file that specifically manages dependency and build information for Java projects.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 50.)Explain Microservices.
       A microservice is an architectural style where an application is broken down into small, independent services. Each service focuses on a specific business function and can be developed, deployed, and scaled independently. Microservices communicate with each other through lightweight protocols like HTTP or messaging queues.
 Key characteristics of microservices:
@@ -529,5 +529,15 @@ Loose coupling: Services are loosely coupled, meaning changes in one service don
 Technology diversity: Each microservice can be developed using different programming languages or technologies, as long as they adhere to communication protocols.
 Fault isolation: Failure in one microservice won't cause the entire application to fail, improving system resilience.
 Scalability: Individual microservices can be scaled based on demand rather than scaling the entire application.
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------
+51.Filters and Interceptors in Spring Boot: 
+          =>In Spring Boot, filters and interceptors are two types of components that allow you to perform specific tasks before or after a request is processed by a controller. While they serve similar purposes, they have different use cases and implementation details.
+  i)Filters
+          =>A filter is a component that can modify or reject an incoming request before it reaches a controller. Filters are typically used for tasks such as:
+             1. Authentication and authorization
+             2. Logging and auditing
+ii)Interceptor
+         =>An interceptor is a component that can intercept and modify the request and response objects after they have been processed by a controller. Interceptors are typically used for tasks such as:
+             1.Logging and auditing
+             2.Error handling and exception translation
+-----------------------------------------------------------------------------------------------------------------------------------------
