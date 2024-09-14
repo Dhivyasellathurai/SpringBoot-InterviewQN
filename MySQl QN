@@ -14,11 +14,22 @@ MySQL:
             =>MySQL is a specific database system that supports SQL as its query language.
             =>MySQL follows the SQL standard but may introduce additional features or minor syntactical variations unique to MySQL.
             =>MySQL provides the infrastructure (the actual database system) to store, retrieve, and manage data, and SQL is the language used to interact with it.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 2.Difference Between the SQL And T-Sql
 SQL (Structured Query Language) and T-SQL (Transact-SQL) are both query languages used to interact with databases, but they differ in terms of capabilities, syntax, and the environments in which they are used. Here’s a breakdown of the key differences:
 SQL (Structured Query Language):
-SQL is a standard language used for querying and managing relational databases. It is ANSI (American National Standards Institute) and ISO (International Organization for Standardization) compliant.
-SQL is used across various database systems, including MySQL, PostgreSQL, Oracle, Microsoft SQL Server, and others.
-SQL is primarily used for querying and manipulating database objects like tables, views, and indexes. It includes standard operations like:
-SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, etc.
-It focuses on Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL) tasks.
+             =>SQL is a standard language used for querying and managing relational databases. It is ANSI (American National Standards Institute) and ISO (International Organization for Standardization) compliant.
+             =>SQL is used across various database systems, including MySQL, PostgreSQL, Oracle, Microsoft SQL Server, and others.
+             =>SQL is primarily used for querying and manipulating database objects like tables, views, and indexes. It includes standard operations like:
+             =>SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, etc.
+             =>It focuses on Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL) tasks.
+T-SQL (Transact-SQL):
+            =>T-SQL is an extension of SQL created by Microsoft. It is specifically used in Microsoft SQL Server and Sybase ASE (Adaptive Server Enterprise).
+            =>T-SQL adds procedural programming, local variables, and additional functions to the standard SQL language.
+            =>T-SQL includes all the standard SQL functionalities and extends them with procedural programming features such as:
+            =>Control-of-flow statements (BEGIN, IF, WHILE, etc.).
+            =>Error handling (TRY, CATCH).
+            =>Local variables.
+            =>Functions and stored procedures.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
