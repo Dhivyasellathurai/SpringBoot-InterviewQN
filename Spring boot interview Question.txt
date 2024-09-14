@@ -541,3 +541,11 @@ ii)Interceptor
              1.Logging and auditing
              2.Error handling and exception translation
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+52.How many ways you can take input from the console?
+There are two methods to take input from the console in Java mentioned below:
+
+Using Command line argument
+Using Buffered Reader Class
+Using Console Class
+Using Scanner Class 
