@@ -563,3 +563,12 @@ Classloader is a subsystem of JVM which is used to load class files. Whenever we
 Bootstrap ClassLoader: This is the first classloader which is the superclass of Extension classloader. It loads the rt.jar file which contains all class files of Java Standard Edition like java.lang package classes, java.net package classes, java.util package classes, java.io package classes, java.sql package classes, etc.
 Extension ClassLoader: This is the child classloader of Bootstrap and parent classloader of System classloader. It loads the jar files located inside $JAVA_HOME/jre/lib/ext directory.
 System/Application ClassLoader: This is the child classloader of Extension classloader. It loads the class files from the classpath. By default, the classpath is set to the current directory. You can change the classpath using "-cp" or "-classpath" switch. It is also known as Application classloader. 
+-----------------------------------------------------------------------------------------------------------------------------------------
+55. What is lazy loading and eager loading in Spring Boot JPA?
+     i) Lazy Loading:  The data is fetched only when needed (i.e., on demand).
+                       Fetch only when needed (good for saving memory and avoiding unnecessary data fetching).
+     ii) Eager Loading: The data is fetched immediately when the object is loaded, regardless of whether it is needed.
+                        Fetch everything at once (good when you always need the related data immediately).
+-----------------------------------------------------------------------------------------------------------------------------------------
+    
+
