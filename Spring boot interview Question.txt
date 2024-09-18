@@ -580,6 +580,19 @@ System/Application ClassLoader: This is the child classloader of Extension class
      2.@ConditionalOnProperty: Only creates a bean if a specific property is set in the configuration file (e.g., 
        application.properties).
 -----------------------------------------------------------------------------------------------------------------------------------------
+57.) What are the advantages and disadvantages of object cloning?
+There are many advantages and disadvantages of using object cloning as mentioned below:
+
+Advantages:
+
+In Java, the ‘=’ assignment operator cannot be used for cloning as it simply creates a copy of reference variables. To overcome such discrepancy the clone() method of Object class can be used over the assignment operator.
+The clone() method is a protected method of class Object which means that only the Employee class can clone Employee objects. This means no class other than Employee can clone Employee objects since it does not know the Employee class’ attributes.
+Code size decreases as repetition decreases. 
+Allows replication (kind of like prototype pattern) manually initilizing each field creates large code if object is complex, its faster with cloning.
+Disadvantages:
+
+As the Object.clone() method is protected, so need to provide our own clone() and indirectly call Object.clone() from it.
+If we don’t have any methods then we need to provide a Cloneable interface as we need to provide JVM information so that we can perform a clone() on our object.if not, we cant clone clone does shallow copy of fields if we just return super.clone() from clone method that can be problematic. enakku itha tamilla puriura maari englishlla explain pannuda
 
 
 
