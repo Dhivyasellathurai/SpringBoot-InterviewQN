@@ -570,5 +570,24 @@ System/Application ClassLoader: This is the child classloader of Extension class
      ii) Eager Loading: The data is fetched immediately when the object is loaded, regardless of whether it is needed.
                         Fetch everything at once (good when you always need the related data immediately).
 -----------------------------------------------------------------------------------------------------------------------------------------
-    
+ 56.Spring Boot Conditional Annotations (@ConditionalOnMissingBean, @ConditionalOnProperty) 
+   =>Spring Boot provides conditional annotations like @ConditionalOnMissingBean and @ConditionalOnProperty, which are useful for controlling when beans (components of your application) should be created. 
+  i) What is a Bean?
+   =>A bean in Spring is basically an object that is managed by the Spring framework. Beans are created and injected (automatically added) into your application where needed.
+ ii) What is a Conditional Annotation?
+   =>Sometimes, you don’t want certain beans to be created all the time. You may want beans to be created based on certain conditions. That's where conditional annotations come in.
+     1.@ConditionalOnMissingBean: Only creates a bean if there’s no other bean of that type already.
+     2.@ConditionalOnProperty: Only creates a bean if a specific property is set in the configuration file (e.g., 
+       application.properties).
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
