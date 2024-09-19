@@ -593,6 +593,22 @@ Disadvantages:
 
 As the Object.clone() method is protected, so need to provide our own clone() and indirectly call Object.clone() from it.
 If we don’t have any methods then we need to provide a Cloneable interface as we need to provide JVM information so that we can perform a clone() on our object.if not, we cant clone clone does shallow copy of fields if we just return super.clone() from clone method that can be problematic. enakku itha tamilla puriura maari englishlla explain pannuda
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+58.Mapping :
+  Mapping is a relationship to relate data in one table to another table in the database.
+Types and Explain :
+ 1.One-to-One Mapping :
+    A row in one table is related to a row in another table.
+    Example: A passport relation in the Passport table to a person in the Person table.
+ 2.One-to-Many Mapping :
+    A row in one table is related to multiple rows in another table.
+    Example: For one department in Department table, many employees in Employee table.
+ 3.Many-to-One Mapping :
+    Multiple rows are linked to a single row.
+    Example: Multiple employees may work in the same department.
+ 4.Many-to-Many Mapping :
+    Multiple rows in one table are related to multiple rows in another table.
+    Example: Students and Courses - A student can take many courses, and a course can be taken by many students.
 
 
 
