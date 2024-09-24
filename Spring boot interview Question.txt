@@ -610,6 +610,12 @@ Types and Explain :
     Multiple rows in one table are related to multiple rows in another table.
     Example: Students and Courses - A student can take many courses, and a course can be taken by many students.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+59. What do you understand by Java virtual machine?
+
+Java Virtual Machine is a virtual machine that enables the computer to run the Java program. JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the specification which must be implemented in the computer system. The Java code is compiled by JVM to be a Bytecode which is machine independent and close to the native code. 
+
 
 
 
