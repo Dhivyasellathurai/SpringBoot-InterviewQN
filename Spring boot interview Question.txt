@@ -615,6 +615,17 @@ Types and Explain :
 59. What do you understand by Java virtual machine?
 
 Java Virtual Machine is a virtual machine that enables the computer to run the Java program. JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the specification which must be implemented in the computer system. The Java code is compiled by JVM to be a Bytecode which is machine independent and close to the native code. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+60.What are the main uses of this keyword?
+
+There are the following uses of this keyword.
+this can be used to refer to the current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke the current class constructor.
+this can be passed as an argument in the method call.
+this can be passed as an argument in the constructor call.
+this can be used to return the current class instance from the method. 
 
 
 
