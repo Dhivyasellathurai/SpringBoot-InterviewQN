@@ -33,3 +33,14 @@ T-SQL (Transact-SQL):
             =>Functions and stored procedures.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.JOINs :
+    Join two or more tables in a single query using JOINs
+    INNER JOIN: Returns only common data in two tables.
+    LEFT JOIN (LEFT OUTER JOIN): Returns all data in the specified table first, with matching data in the next table.
+    RIGHT JOIN (RIGHT OUTER JOIN): Returns all the data of the second table and joins the matching data of the first table.
+    FULL JOIN (FULL OUTER JOIN): Returns all the data in the second table.
+SUBQUERY :
+    A SUBQUERY is a method in which a query contains another query.
+    Single-row subquery: returns only one value.
+    Multiple-row subquery: Returns multiple values.
+    Correlated subquery: In this subquery, executes a subquery that is correlated to the outer query.
