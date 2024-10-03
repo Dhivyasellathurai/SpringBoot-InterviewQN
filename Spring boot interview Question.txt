@@ -627,7 +627,10 @@ this can be passed as an argument in the method call.
 this can be passed as an argument in the constructor call.
 this can be used to return the current class instance from the method. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+61.pattern Program;
+   A pattern is a repeating pattern or pattern in mathematics or programming.
+  "Pattern" is the creation of alternating patterns in sequences following a specific rule.
+   You can easily create documents, views, forms, etc. using loops and conditionals.
 
 
 
