@@ -44,3 +44,9 @@ SUBQUERY :
     Single-row subquery: returns only one value.
     Multiple-row subquery: Returns multiple values.
     Correlated subquery: In this subquery, executes a subquery that is correlated to the outer query.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.PostgreSQL :
+   *In PostgreSQL, JSON (JavaScript Object Notation) is a popular format for organizing and storing data. PostgreSQL handles two types of data,
+    JSON and JSONB. Both these formats are used to store JSON data.
+   *JSONB stands for "Binary JSON" in PostgreSQL. It refers to JSON (JavaScript Object Notation) data. But JSONB is a method of storing JSON data in binary format, which is
+    very useful for quick search, update, and set operations.
