@@ -631,7 +631,10 @@ this can be used to return the current class instance from the method.
    A pattern is a repeating pattern or pattern in mathematics or programming.
   "Pattern" is the creation of alternating patterns in sequences following a specific rule.
    You can easily create documents, views, forms, etc. using loops and conditionals.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+62.<T> vs <?> Difference:
+    <T> is for when you know the type or will specify it later.
+    <?> is for when you don’t care about the type but want to work with any type.
 
 
 
