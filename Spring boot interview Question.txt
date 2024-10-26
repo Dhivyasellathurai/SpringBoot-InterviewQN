@@ -654,8 +654,27 @@ These codes indicate that the client must take additional action to complete the
 301 Moved Permanently: The resource has been moved to a new URL, and future requests should use the new URL.
 302 Found: The resource is temporarily located at a different URL, but future requests should still use the original URL.
 304 Not Modified: The requested resource has not been modified since the last request, so no need to resend it.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+64.Client Error Responses:
+400 Bad Request: The server cannot understand the request due to invalid syntax. This usually means that the client sent a malformed request.
 
+401 Unauthorized: The request lacks valid authentication credentials for the target resource. The client needs to log in or provide valid credentials to access the resource.
 
+403 Forbidden: The server understands the request, but it refuses to authorize it. This means the client does not have permission to access the requested resource.
+
+404 Not Found: The server cannot find the requested resource. This could mean that the URL is incorrect or that the resource does not exist.
+
+405 Method Not Allowed: The request method (e.g., GET, POST, PUT, DELETE) is not supported for the requested resource. For example, trying to POST data to a URL that only supports GET requests.
+
+406 Not Acceptable: The server cannot produce a response matching the list of acceptable values defined in the request's headers.
+
+408 Request Timeout: The server timed out waiting for the request. This usually means that the client took too long to send the request.
+
+409 Conflict: The request could not be completed due to a conflict with the current state of the target resource. This often occurs in situations like version control where multiple updates conflict.
+
+410 Gone: The resource requested is no longer available and will not be available again. This is a permanent condition.
+
+415 Unsupported Media Type: The server refuses to accept the request because the payload format is in an unsupported format. For instance, the server expects JSON, but the client sends XML.
 
 
 
