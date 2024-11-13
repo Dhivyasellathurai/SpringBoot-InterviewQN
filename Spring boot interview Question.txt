@@ -679,9 +679,14 @@ These codes indicate that the client must take additional action to complete the
 65.Servelt
    A Servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed by a request-response model. Although servlets can respond to any type of request, they are commonly used to handle HTTP requests in web applications. Servlets are part of the Java EE (Enterprise Edition) standard and run on a servlet container (like Apache Tomcat, Jetty, etc.).
 
+66.how to find the middle number in a Linkedlist?
+   To find the middle element of a linked list efficiently, you can use the two-pointer technique (also known as the "tortoise and hare" approach). Here’s how it works:
 
+Initialize Two Pointers: Start with two pointers, slow and fast, both at the head of the linked list.
 
+Move Pointers at Different Speeds: Move the slow pointer by one node at a time and the fast pointer by two nodes at a time.
 
+Stop When Fast Reaches the End: When the fast pointer reaches the end of the list (or the node before the end in the case of an even-length list), the slow pointer will be at the middle of the linked list
 
 
 
