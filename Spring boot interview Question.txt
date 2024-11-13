@@ -675,6 +675,9 @@ These codes indicate that the client must take additional action to complete the
 410 Gone: The resource requested is no longer available and will not be available again. This is a permanent condition.
 
 415 Unsupported Media Type: The server refuses to accept the request because the payload format is in an unsupported format. For instance, the server expects JSON, but the client sends XML.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+65.Servelt
+   A Servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed by a request-response model. Although servlets can respond to any type of request, they are commonly used to handle HTTP requests in web applications. Servlets are part of the Java EE (Enterprise Edition) standard and run on a servlet container (like Apache Tomcat, Jetty, etc.).
 
 
 
