@@ -687,6 +687,12 @@ Initialize Two Pointers: Start with two pointers, slow and fast, both at the hea
 Move Pointers at Different Speeds: Move the slow pointer by one node at a time and the fast pointer by two nodes at a time.
 
 Stop When Fast Reaches the End: When the fast pointer reaches the end of the list (or the node before the end in the case of an even-length list), the slow pointer will be at the middle of the linked list
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+67.API vs Rest API :
+API :
+      A set of rules and protocols that allow one software application to communicate with another.
+Rest API :
+      A type of Web API that follows REST architectural principles, leveraging HTTP to perform CRUD operations.
 
 
 
