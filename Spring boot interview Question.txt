@@ -724,6 +724,11 @@ Rest API :
 |                | simple database needs.       | scale projects requiring ORM. |
 +----------------+-------------------------------+-------------------------------+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69.Pojo class :
+    A POJO does not extend or implement anything.
+    Only Java's core Object class is required.
+    POJOs are used with @ModelAttribute in Spring MVC.
+    Converts rows in database to POJOs in Hibernate.
 
 
 
