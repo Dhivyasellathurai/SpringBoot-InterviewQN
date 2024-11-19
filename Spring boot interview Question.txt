@@ -694,7 +694,7 @@ API :
 Rest API :
       A type of Web API that follows REST architectural principles, leveraging HTTP to perform CRUD operations.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-Compare JDBC and Hibernate:
+68.Compare JDBC and Hibernate:
 +----------------+-------------------------------+-------------------------------+
 |   Feature      |             JDBC             |           Hibernate           |
 +----------------+-------------------------------+-------------------------------+
