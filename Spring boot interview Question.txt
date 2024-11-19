@@ -693,6 +693,37 @@ API :
       A set of rules and protocols that allow one software application to communicate with another.
 Rest API :
       A type of Web API that follows REST architectural principles, leveraging HTTP to perform CRUD operations.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Compare JDBC and Hibernate:
++----------------+-------------------------------+-------------------------------+
+|   Feature      |             JDBC             |           Hibernate           |
++----------------+-------------------------------+-------------------------------+
+| **Definition** | Low-level API for direct     | High-level ORM framework for  |
+|                | interaction with databases.  | database interaction.         |
++----------------+-------------------------------+-------------------------------+
+| **Query Type** | SQL (manual queries).        | HQL or Criteria API (object-  |
+|                |                               | oriented queries).            |
++----------------+-------------------------------+-------------------------------+
+| **Mapping**    | Manual mapping of data       | Automatic mapping of Java     |
+|                | between tables and objects.  | objects to database tables.   |
++----------------+-------------------------------+-------------------------------+
+| **Boilerplate**| Requires extensive code for  | Reduces boilerplate with      |
+|                | connections and resource     | built-in tools.               |
+|                | management.                  |                               |
++----------------+-------------------------------+-------------------------------+
+| **Caching**    | No caching support.          | First-level and second-level  |
+|                |                               | caching to improve speed.     |
++----------------+-------------------------------+-------------------------------+
+| **Independence**| SQL queries are database-   | Database-independent. Adapts  |
+|                | specific.                    | to multiple databases.        |
++----------------+-------------------------------+-------------------------------+
+| **Performance**| Faster for simple use cases. | Optimized for large-scale     |
+|                |                               | applications with caching.    |
++----------------+-------------------------------+-------------------------------+
+| **Use Case**   | Best for small projects with | Ideal for complex, large-     |
+|                | simple database needs.       | scale projects requiring ORM. |
++----------------+-------------------------------+-------------------------------+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
