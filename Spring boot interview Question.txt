@@ -729,6 +729,11 @@ Rest API :
     Only Java's core Object class is required.
     POJOs are used with @ModelAttribute in Spring MVC.
     Converts rows in database to POJOs in Hibernate.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70.SpringBoot :
+    Spring Boot is a framework built on top of the Spring Framework. With this, you can create Web Applications, REST APIs, and Microservices in Java very easily and quickly.
+    Makes the Configuration Process Simple.
+    Helps create Ready-to-Use Applications.
 
 
 
